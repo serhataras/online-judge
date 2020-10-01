@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dmoj\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-19 18:29+0000\n"
-"PO-Revision-Date: 2020-08-23 18:58\n"
+"POT-Creation-Date: 2020-09-30 22:00+0000\n"
+"PO-Revision-Date: 2020-10-01 00:30\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -18,66 +18,70 @@ msgstr ""
 "X-Crowdin-File-ID: 10\n"
 
 #: dmoj/settings.py:361
+msgid "Catalan"
+msgstr ""
+
+#: dmoj/settings.py:362
 msgid "German"
 msgstr "Alemán"
 
-#: dmoj/settings.py:362
+#: dmoj/settings.py:363
 msgid "English"
 msgstr "Inglés"
 
-#: dmoj/settings.py:363
+#: dmoj/settings.py:364
 msgid "Spanish"
 msgstr "Español"
 
-#: dmoj/settings.py:364
+#: dmoj/settings.py:365
 msgid "French"
 msgstr "Francés"
 
-#: dmoj/settings.py:365
+#: dmoj/settings.py:366
 msgid "Croatian"
 msgstr "Croata"
 
-#: dmoj/settings.py:366
+#: dmoj/settings.py:367
 msgid "Hungarian"
 msgstr "Húngaro"
 
-#: dmoj/settings.py:367
+#: dmoj/settings.py:368
 msgid "Japanese"
 msgstr "Japonés"
 
-#: dmoj/settings.py:368
+#: dmoj/settings.py:369
 msgid "Korean"
 msgstr "Coreano"
 
-#: dmoj/settings.py:369
+#: dmoj/settings.py:370
 msgid "Brazilian Portuguese"
 msgstr "Portugués (Brasil)"
 
-#: dmoj/settings.py:370
+#: dmoj/settings.py:371
 msgid "Romanian"
 msgstr "Rumano"
 
-#: dmoj/settings.py:371
+#: dmoj/settings.py:372
 msgid "Russian"
 msgstr "Ruso"
 
-#: dmoj/settings.py:372
+#: dmoj/settings.py:373
 msgid "Serbian (Latin)"
 msgstr "Serbio (Latino)"
 
-#: dmoj/settings.py:373
+#: dmoj/settings.py:374
 msgid "Turkish"
 msgstr "Turco"
 
-#: dmoj/settings.py:374
+#: dmoj/settings.py:375
 msgid "Vietnamese"
 msgstr "Vietnamita"
 
-#: dmoj/settings.py:375
+#: dmoj/settings.py:376
 msgid "Simplified Chinese"
 msgstr "Chino simplificado"
 
-#: dmoj/settings.py:376
+#: dmoj/settings.py:377
 msgid "Traditional Chinese"
 msgstr "Chino Tradicional"
 
@@ -233,7 +237,7 @@ msgid "Summary"
 msgstr "Resumen"
 
 #: judge/admin/interface.py:113 judge/models/contest.py:361
-#: judge/models/contest.py:486 judge/models/profile.py:241
+#: judge/models/contest.py:487 judge/models/profile.py:241
 #: judge/models/profile.py:265
 msgid "user"
 msgstr "usuario"
@@ -982,7 +986,7 @@ msgid "Change lock status of contest"
 msgstr "Cambiar el estado de bloqueo del concurso"
 
 #: judge/models/contest.py:352 judge/models/contest.py:450
-#: judge/models/contest.py:487 judge/models/contest.py:509
+#: judge/models/contest.py:488 judge/models/contest.py:510
 #: judge/models/submission.py:84
 msgid "contest"
 msgstr "concurso"
@@ -1050,14 +1054,14 @@ msgstr "participación del concurso"
 msgid "contest participations"
 msgstr "participaciones del concurso"
 
-#: judge/models/contest.py:449 judge/models/contest.py:471
-#: judge/models/contest.py:510 judge/models/problem.py:421
+#: judge/models/contest.py:449 judge/models/contest.py:472
+#: judge/models/contest.py:511 judge/models/problem.py:421
 #: judge/models/problem.py:426 judge/models/problem.py:444
 #: judge/models/problem_data.py:35
 msgid "problem"
 msgstr "problema"
 
-#: judge/models/contest.py:451 judge/models/contest.py:475
+#: judge/models/contest.py:451 judge/models/contest.py:476
 #: judge/models/problem.py:129
 msgid "points"
 msgstr "puntos"
@@ -1066,7 +1070,7 @@ msgstr "puntos"
 msgid "partial"
 msgstr "parcial"
 
-#: judge/models/contest.py:453 judge/models/contest.py:476
+#: judge/models/contest.py:453 judge/models/contest.py:477
 msgid "is pretested"
 msgstr "está protegido"
 
@@ -1078,71 +1082,71 @@ msgstr "orden"
 msgid "output prefix length override"
 msgstr "anular la longitud del prefijo de salida"
 
-#: judge/models/contest.py:456
+#: judge/models/contest.py:457
 msgid "Maximum number of submissions for this problem, or leave blank for no limit."
 msgstr "Número máximo de envíos para este problema, o dejar en blanco para no poner límite."
 
-#: judge/models/contest.py:459
+#: judge/models/contest.py:460
 msgid "Why include a problem you can't submit to?"
 msgstr "¿Por qué incluir un problema que no puede enviarse?"
 
-#: judge/models/contest.py:464
+#: judge/models/contest.py:465
 msgid "contest problem"
 msgstr "problema de concurso"
 
-#: judge/models/contest.py:465
+#: judge/models/contest.py:466
 msgid "contest problems"
 msgstr "problemas del concurso"
 
-#: judge/models/contest.py:469 judge/models/submission.py:201
+#: judge/models/contest.py:470 judge/models/submission.py:201
 msgid "submission"
 msgstr "envío"
 
-#: judge/models/contest.py:473 judge/models/contest.py:488
+#: judge/models/contest.py:474 judge/models/contest.py:489
 msgid "participation"
 msgstr "participación"
 
-#: judge/models/contest.py:477
+#: judge/models/contest.py:478
 msgid "Whether this submission was ran only on pretests."
 msgstr "Si esta presentación funcionó sólo en pruebas previas."
 
-#: judge/models/contest.py:481
+#: judge/models/contest.py:482
 msgid "contest submission"
 msgstr "presentación del concurso"
 
-#: judge/models/contest.py:482
+#: judge/models/contest.py:483
 msgid "contest submissions"
 msgstr "presentaciones de concurso"
 
-#: judge/models/contest.py:490
+#: judge/models/contest.py:491
 msgid "rank"
 msgstr "rango"
 
-#: judge/models/contest.py:491
+#: judge/models/contest.py:492
 msgid "rating"
 msgstr "puntuación"
 
-#: judge/models/contest.py:492
+#: judge/models/contest.py:493
 msgid "volatility"
 msgstr "volatilidad"
 
-#: judge/models/contest.py:493
+#: judge/models/contest.py:494
 msgid "last rated"
 msgstr "último calificado"
 
-#: judge/models/contest.py:497
+#: judge/models/contest.py:498
 msgid "contest rating"
 msgstr "calificación del concurso"
 
-#: judge/models/contest.py:498
+#: judge/models/contest.py:499
 msgid "contest ratings"
 msgstr "calificaciones del concurso"
 
-#: judge/models/contest.py:517
+#: judge/models/contest.py:518
 msgid "contest moss result"
 msgstr "resultado del moss del concurso"
 
-#: judge/models/contest.py:518
+#: judge/models/contest.py:519
 msgid "contest moss results"
 msgstr "resultados del moss del concurso"
 
@@ -1230,7 +1234,7 @@ msgstr "posts del blog"
 msgid "message title"
 msgstr "título del mensaje"
 
-#: judge/models/message.py:12 judge/models/ticket.py:29
+#: judge/models/message.py:12 judge/models/ticket.py:30
 msgid "message body"
 msgstr "cuerpo del mensaje"
 
@@ -2313,35 +2317,35 @@ msgstr "fecha de creación"
 msgid "assignees"
 msgstr "asignados"
 
-#: judge/models/ticket.py:15
+#: judge/models/ticket.py:16
 msgid "quick notes"
 msgstr "notas rápidas"
 
-#: judge/models/ticket.py:16
+#: judge/models/ticket.py:17
 msgid "Staff notes for this issue to aid in processing."
 msgstr "Notas del personal en este problema para ayudar en el procesamiento."
 
-#: judge/models/ticket.py:17
+#: judge/models/ticket.py:18
 msgid "linked item type"
 msgstr "tipo de elemento enlazado"
 
-#: judge/models/ticket.py:19
+#: judge/models/ticket.py:20
 msgid "linked item ID"
 msgstr "identificación del artículo vinculado"
 
-#: judge/models/ticket.py:21
+#: judge/models/ticket.py:22
 msgid "is ticket open?"
 msgstr "¿está abierto el boleto?"
 
-#: judge/models/ticket.py:25
+#: judge/models/ticket.py:26
 msgid "ticket"
 msgstr "ticket"
 
-#: judge/models/ticket.py:27
+#: judge/models/ticket.py:28
 msgid "poster"
 msgstr "publicación"
 
-#: judge/models/ticket.py:30
+#: judge/models/ticket.py:31
 msgid "message time"
 msgstr "hora del mensaje"
 
@@ -3141,16 +3145,6 @@ msgstr "Datos ascendentes no válidos: %s"
 msgid "Bad latitude or longitude"
 msgstr "Latitud o longitud invalida"
 
-#: src/django-sortedm2m/sortedm2m_tests/migrations_tests/models.py:13
-#: src/django-sortedm2m/sortedm2m_tests/migrations_tests/models.py:27
-msgid "Photo"
-msgstr "Foto"
-
-#: src/django-sortedm2m/sortedm2m_tests/migrations_tests/models.py:14
-#: src/django-sortedm2m/sortedm2m_tests/migrations_tests/models.py:28
-msgid "Photos"
-msgstr "Fotos"
-
 #: src/dmoj-wpadmin/test_project/apps/authors/models.py:9
 msgid "first name"
 msgstr "nombre"
@@ -3456,7 +3450,7 @@ msgstr "comentado en {time}"
 msgid "edit %(edits)s"
 msgstr "editar %(edits)s"
 
-#: templates/comments/list.html:58 templates/comments/media-js.html:91
+#: templates/comments/list.html:58 templates/comments/media-js.html:95
 msgid "edited"
 msgstr "editado"
 
@@ -3511,12 +3505,12 @@ msgstr "Los comentarios estan deshabilitados en esta página"
 msgid "Replying to comment"
 msgstr "Respondiendo al comentario"
 
-#: templates/comments/media-js.html:86
+#: templates/comments/media-js.html:90
 #, python-brace-format
 msgid "edit {edits}"
 msgstr "editar {edits}"
 
-#: templates/comments/media-js.html:89
+#: templates/comments/media-js.html:93
 msgid "original"
 msgstr "original"
 
@@ -4794,15 +4788,17 @@ msgstr "Sólo mostrar mis tickets"
 msgid "Filing user"
 msgstr "Registro de usuario"
 
-#: templates/ticket/list.html:237
+#: templates/ticket/list.html:237 templates/ticket/ticket.html:361
 msgid "Assignee"
-msgstr "Asignado"
+msgid_plural "Assignees"
+msgstr[0] ""
+msgstr[1] ""
 
 #: templates/ticket/list.html:260
 msgid "Title"
 msgstr "Título"
 
-#: templates/ticket/list.html:262 templates/ticket/ticket.html:360
+#: templates/ticket/list.html:262
 msgid "Assignees"
 msgstr "Asignados"
 
@@ -4822,23 +4818,23 @@ msgstr "Publicar"
 msgid "Associated object"
 msgstr "Objeto asociado"
 
-#: templates/ticket/ticket.html:365
+#: templates/ticket/ticket.html:371
 msgid "No one is assigned."
 msgstr "Ninguno asignado."
 
-#: templates/ticket/ticket.html:371
+#: templates/ticket/ticket.html:377
 msgid "Close ticket"
 msgstr "Ticket de cierre"
 
-#: templates/ticket/ticket.html:373
+#: templates/ticket/ticket.html:379
 msgid "Reopen ticket"
 msgstr "Reabrir ticket"
 
-#: templates/ticket/ticket.html:377
+#: templates/ticket/ticket.html:383
 msgid "Assignee notes"
 msgstr "Notas de asignado"
 
-#: templates/ticket/ticket.html:384 templates/widgets/select_all.html:4
+#: templates/ticket/ticket.html:390 templates/widgets/select_all.html:4
 msgid "Nothing here."
 msgstr "Nada aquí."
 
@@ -5062,23 +5058,30 @@ msgstr "Calificar por puntos:"
 msgid "Total points:"
 msgstr "Puntos totales:"
 
-#: templates/user/user-base.html:68
+#: templates/user/user-base.html:67
+#, python-format
+msgid "%(counter)s contest written"
+msgid_plural "%(counter)s contests written"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/user/user-base.html:74
 msgid "Rank by rating:"
 msgstr "Rango de la clasificación:"
 
-#: templates/user/user-base.html:70
+#: templates/user/user-base.html:76
 msgid "Rating:"
 msgstr "Puntuación:"
 
-#: templates/user/user-base.html:71
+#: templates/user/user-base.html:77
 msgid "Volatility:"
 msgstr "Valatilidad:"
 
-#: templates/user/user-base.html:72
+#: templates/user/user-base.html:78
 msgid "Min. rating:"
 msgstr "Calificación mínima:"
 
-#: templates/user/user-base.html:73
+#: templates/user/user-base.html:79
 msgid "Max rating:"
 msgstr "Calificación máxima:"
 
